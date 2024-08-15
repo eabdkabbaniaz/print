@@ -1,0 +1,9 @@
+# توحيد نهاية السطر LF لجميع الملفات النصية
+* text=auto
+
+# تأكيد استخدام LF لملفات محددة (مثل PHP وJS وCSS)
+*.php text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.blade.php text eol=lf

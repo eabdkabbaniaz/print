@@ -1,0 +1,561 @@
+<?php
+namespace Database\Seeders;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+class ProductSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        DB::table('products')->insert([
+            [
+                'product_path' => '/images/category/1.jfif',
+                'product_information' => 'سندويش دجاج مشوي مع صوص خاص وخضار طازجة.',
+            ],
+            [
+                'product_path' => '/images/category/2.jfif',
+                'product_information' => 'قطعتين دجاج مشوي مع جبنة وصوص خاص في خبز طازج.',
+            ],
+            [
+                'product_path' => '/images/category/3.jfif',
+                'product_information' => 'ساندويش دجاج مقلي مع خضار وصوص البريمو الخاص.',
+            ],
+            [
+                'product_path' => '/images/category/4.jfif',
+                'product_information' => 'تويستر دجاج مع صوص الثوم وخضار طازجة.',
+            ],
+            [
+                'product_path' => '/images/category/5.jfif',
+                'product_information' => 'سندويش هوت دوغ مع بصل مقلي، خيار مخلل، وصوص الماسترد.',
+            ],
+            [
+                'product_path' => '/images/category/6.jfif',
+                'product_information' => 'دجاج مشوي متبل بالأوريغانو وزيت الزيتون.',
+            ],
+            [
+                'product_path' => '/images/category/7.jfif',
+                'product_information' => 'شرحات دجاج مشوية على الفحم مع صوص الليمون والثوم.',
+            ],
+            [
+                'product_path' => '/images/category/8.jfif',
+                'product_information' => 'برغر دجاج مشوي مع جبنة شيدر، خس، وطماطم.',
+            ],
+            [
+                'product_path' => '/images/category/9.jfif',
+                'product_information' => 'قطع دجاج مقرمش مغطى بالبقسماط وصوص خاص.',
+            ],
+            [
+                'product_path' => '/images/category/10.jfif',
+                'product_information' => 'قطع دجاج صغيرة مقرمشة مع صوص الغمس الخاص.',
+            ],
+            [
+                'product_path' => '/images/category/11.jfif',
+                'product_information' => 'سيخ دجاج متبل بالبهارات ومشوي على الفحم.',
+            ],
+            [
+                'product_path' => '/images/category/12.jfif',
+                'product_information' => 'سندويش تورتيلا محشو بالدجاج والجبنة المذابة.',
+            ],
+            [
+                'product_path' => '/images/category/13.jfif',
+                'product_information' => 'قطع دجاج مقلي مغلفة بالبقسماط.',
+            ],
+            [
+                'product_path' => '/images/category/14.jfif',
+                'product_information' => 'بطاطا مقلية ذهبية ومقرمشة.',
+            ],
+            [
+                'product_path' => '/images/category/15.jfif',
+                'product_information' => 'بطاطا مقلية مغطاة بجبنة الشيدر الذائبة.',
+            ],
+            [
+                'product_path' => '/images/category/14.jfif',
+                'product_information' => 'شريحة لحم بقر مشوي مع بهارات خاصة.',
+            ],
+            [
+                'product_path' => '/images/category/s.jfif',
+                'product_information' => 'شريحة لحم بقري مشوية على النار مع صوص المشروم.',
+            ],
+            [
+                'product_path' => '/images/category/17.jfif',
+                'product_information' => 'لحم بقر مشوي مع صوص البوافر الحار.',
+            ],
+            [
+                'product_path' => '/images/category/18.jfif',
+                'product_information' => 'ساندويش لحم مع جبنة كريم وخضار طازجة.',
+            ],
+            [
+                'product_path' => '/images/category/19.jfif',
+                'product_information' => 'شريحة لحم مشوي مع فطر وجبنة موزاريلا.',
+            ],
+            [
+                'product_path' => '/images/category/20.jfif',
+                'product_information' => 'خليط من اللحم والدجاج المشوي في خبز طازج.',
+            ],
+            [
+                'product_path' => '/images/category/14.jfif',
+                'product_information' => 'ساندويش لحم بقري مع جبنة شيدر وخضار وصوص خاص.',
+            ],
+            [
+                'product_path' => '/images/category/21.jfif',
+                'product_information' => 'لحم بقري متبل ومشوي يقدم في خبز التنور مع الطحينة.',
+            ],
+            [
+                'product_path' => '/images/category/22.jfif',
+                'product_information' => 'لحم مفروم متبل محشي في خبز مشوي.',
+            ],
+            [
+                'product_path' => '/images/category/23.jfif',
+                'product_information' => 'لحم بقري مع بهارات مكسيكية وخضار طازجة.',
+            ],
+            [
+                'product_path' => '/images/category/24.jfif',
+                'product_information' => 'برغر لحم بقري مشوي مع جبنة، خس، وطماطم.',
+            ],
+            [
+                'product_path' => '/images/category/25.jfif',
+                'product_information' => 'ساندويش سلامي مع جبنة السويسرية وخضار.',
+            ],
+            [
+                'product_path' => '/images/category/26.jfif',
+                'product_information' => 'بيتزا مشكلة بأربع أنواع من الجبن والخضار.',
+            ],
+            [
+                'product_path' => '/images/category/27.jfif',
+                'product_information' => 'بيتزا بالطماطم والجبنة الموزاريلا.',
+            ],
+            [
+                'product_path' => '/images/category/28.jpg',
+                'product_information' => 'بيتزا مغطاة بالسجق والجبنة.',
+            ],
+            [
+                'product_path' => '/images/category/29.jpeg',
+                'product_information' => 'بيتزا مشكلة مغطاة بأنواع متعددة من اللحوم والجبن.',
+            ],
+            [
+                'product_path' => '/images/category/30.jpeg',
+                'product_information' => 'بيتزا مغطاة بقطع الدجاج المتبلة والجبنة.',
+            ],
+            [
+                'product_path' => '/images/category/31.jpeg',
+                'product_information' => 'بيتزا مغطاة بقطع البيروني والجبنة.',
+            ],
+            [
+                'product_path' => '/images/category/32.jpeg',
+                'product_information' => 'بيتزا مغطاة بقطع الهوت دوغ والجبنة الموزاريلا.',
+            ],
+            [
+                'product_path' => '/images/category/36.jpg',
+                'product_information' => 'بيتزا مغطاة بلحم البقر المتبل والجبنة.',
+            ],
+            [
+                'product_path' => '/images/category/31.jpg',
+                'product_information' => 'بيتزا مغطاة باللحم والجبنة مع حواف محشية بالجبنة.',
+            ],
+            [
+                'product_path' => '/images/category/33.jpeg',
+                'product_information' => 'شوربة كريمية مصنوعة من الذرة الحلوة.',
+            ],
+            [
+                'product_path' => '/images/category/34.jpg',
+                'product_information' => 'شوربة بصل كريمية مع جبنة ذائبة.',
+            ],
+            [
+                'product_path' => '/images/category/35.jpeg',
+                'product_information' => 'شوربة كريمية مصنوعة من قطع الدجاج المتبلة.',
+            ],
+            [
+                'product_path' => '/images/category/36.jpeg',
+                'product_information' => 'سلطة خضراء مع قطع دجاج مشوي، خبز محمص، وصوص سيزر.',
+            ],
+            [
+                'product_path' => '/images/category/37.jpeg',
+                'product_information' => 'سلطة خضراء مع جبنة سويسرية، جوز، وتوت مجفف.',
+            ],
+            [
+                'product_path' => '/images/category/38.jpeg',
+                'product_information' => 'سلطة خضراء مع جبنة الفيتا والزيتون الأسود.',
+            ],
+            [
+                'product_path' => '/images/category/39.jpeg',
+                'product_information' => 'سلطة خضراء مع حبوب الذرة الحلوة والفلفل الأحمر.',
+            ],
+            [
+                'product_path' => '/images/category/40.jpeg',
+                'product_information' => 'سلطة معكرونة مع خضار وصلصة إيطالية.',
+            ],
+            [
+                'product_path' => '/images/category/41.jpeg',
+                'product_information' => 'معكرونة مغطاة بصلصة البشمل وجبنة الموزاريلا.',
+            ],
+        ]);
+
+        DB::table('product_types')->insert([
+            [
+                'name' => 'تشكن بلاش - ساندويش',
+                'price' => 5,
+                'Calories' => 350,
+                'total_ratings' => 4.5,
+                'product_id' => 1,
+                'category_id' => 1,
+            ],
+            [
+                'name' => 'دجاج سوبر ستار - ساندويش',
+                'price' => 7,
+                'Calories' => 450,
+                'total_ratings' => 4.7,
+                'product_id' => 2,
+                'category_id' => 1,
+            ],
+            [
+                'name' => 'تشكن بريمو - ساندويش',
+                'price' => 6,
+                'Calories' => 420,
+                'total_ratings' => 4.6,
+                'product_id' => 3,
+                'category_id' => 1,
+            ],
+            [
+                'name' => 'تويستر - ساندويش',
+                'price' => 600,
+                'Calories' => 390,
+                'total_ratings' => 4.4,
+                'product_id' => 4,
+                'category_id' => 1,
+            ],
+            [
+                'name' => 'هوت دوغ - ساندويش',
+                'price' => 550,
+                'Calories' => 370,
+                'total_ratings' => 4.3,
+                'product_id' => 5,
+                'category_id' => 1,
+            ],
+            [
+                'name' => 'دجاج اوريغانو - ساندويش',
+                'price' => 600,
+                'Calories' => 410,
+                'total_ratings' => 4.6,
+                'product_id' => 6,
+                'category_id' => 1,
+            ],
+            [
+                'name' => 'شرحات الدجاج - ساندويش',
+                'price' => 700,
+                'Calories' => 460,
+                'total_ratings' => 4.7,
+                'product_id' => 7,
+                'category_id' => 1,
+            ],
+            [
+                'name' => 'همبرغر دجاج - ساندويش',
+                'price' => 500,
+                'Calories' => 400,
+                'total_ratings' => 4.4,
+                'product_id' => 8,
+                'category_id' => 1,
+            ],
+            [
+                'name' => 'كريسبي - ساندويش',
+                'price' => 650,
+                'Calories' => 420,
+                'total_ratings' => 4.5,
+                'product_id' => 9,
+                'category_id' => 1,
+            ],
+            [
+                'name' => 'ناغت - ساندويش',
+                'price' => 450,
+                'Calories' => 350,
+                'total_ratings' => 4.3,
+                'product_id' => 10,
+                'category_id' => 1,
+            ],
+            [
+                'name' => 'شيش طاووق - ساندويش',
+                'price' => 600,
+                'Calories' => 400,
+                'total_ratings' => 4.6,
+                'product_id' => 11,
+                'category_id' => 1,
+            ],
+            [
+                'name' => 'كساديا - ساندويش',
+                'price' => 550,
+                'Calories' => 380,
+                'total_ratings' => 4.4,
+                'product_id' => 12,
+                'category_id' => 1,
+            ],
+            [
+                'name' => 'اسكالوب - ساندويش',
+                'price' => 750,
+                'Calories' => 480,
+                'total_ratings' => 4.7,
+                'product_id' => 13,
+                'category_id' => 1,
+            ],
+            [
+                'name' => 'بطاطا - ساندويش',
+                'price' => 300,
+                'Calories' => 320,
+                'total_ratings' => 4.2,
+                'product_id' => 14,
+                'category_id' => 1,
+            ],
+            [
+                'name' => 'بطاطا تشيز - ساندويش',
+                'price' => 400,
+                'Calories' => 360,
+                'total_ratings' => 4.3,
+                'product_id' => 15,
+                'category_id' => 1,
+            ],
+            [
+                'name' => 'روستو بيف - ساندويش',
+                'price' => 700,
+                'Calories' => 440,
+                'total_ratings' => 4.5,
+                'product_id' => 16,
+                'category_id' => 2,
+            ],
+            [
+                'name' => 'ستيك لحمة - ساندويش',
+                'price' => 800,
+                'Calories' => 500,
+                'total_ratings' => 4.6,
+                'product_id' => 17,
+                'category_id' => 2,
+            ],
+            [
+                'name' => 'بوافر - ساندويش',
+                'price' => 650,
+                'Calories' => 420,
+                'total_ratings' => 4.4,
+                'product_id' => 18,
+                'category_id' => 2,
+            ],
+            [
+                'name' => 'فيلاديليفيا - ساندويش',
+                'price' => 750,
+                'Calories' => 460,
+                'total_ratings' => 4.7,
+                'product_id' => 19,
+                'category_id' => 2,
+            ],
+            [
+                'name' => 'لحم فطر وجبنة - ساندويش',
+                'price' => 700,
+                'Calories' => 440,
+                'total_ratings' => 4.6,
+                'product_id' => 20,
+                'category_id' => 2,
+            ],
+            [
+                'name' => 'سندويش ميكس - ساندويش',
+                'price' => 650,
+                'Calories' => 420,
+                'total_ratings' => 4.4,
+                'product_id' => 21,
+                'category_id' => 2,
+            ],
+            [
+                'name' => 'بيف سوبر ستار - ساندويش',
+                'price' => 750,
+                'Calories' => 460,
+                'total_ratings' => 4.7,
+                'product_id' => 22,
+                'category_id' => 2,
+            ],
+            [
+                'name' => 'شاورما لحمة - ساندويش',
+                'price' => 650,
+                'Calories' => 420,
+                'total_ratings' => 4.5,
+                'product_id' => 23,
+                'category_id' => 2,
+            ],
+            [
+                'name' => 'توشكا - ساندويش',
+                'price' => 550,
+                'Calories' => 390,
+                'total_ratings' => 4.3,
+                'product_id' => 24,
+                'category_id' => 2,
+            ],
+            [
+                'name' => 'مكسيكي لحمة - ساندويش',
+                'price' => 700,
+                'Calories' => 440,
+                'total_ratings' => 4.6,
+                'product_id' => 25,
+                'category_id' => 2,
+            ],
+            [
+                'name' => 'همبرغر - ساندويش',
+                'price' => 500,
+                'Calories' => 400,
+                'total_ratings' => 4.4,
+                'product_id' => 26,
+                'category_id' => 2,
+            ],
+            [
+                'name' => 'سلامي - ساندويش',
+                'price' => 550,
+                'Calories' => 390,
+                'total_ratings' => 4.3,
+                'product_id' => 27,
+                'category_id' => 2,
+            ],
+            [
+                'name' => 'بيتزا فصول - حجم وسط',
+                'price' => 1200,
+                'Calories' => 800,
+                'total_ratings' => 4.6,
+                'product_id' => 28,
+                'category_id' => 3,
+            ],
+            [
+                'name' => 'بيتزا مرغريتا - حجم وسط',
+                'price' => 1000,
+                'Calories' => 750,
+                'total_ratings' => 4.5,
+                'product_id' => 29,
+                'category_id' => 3,
+            ],
+            [
+                'name' => 'بيتزا سجق - حجم وسط',
+                'price' => 1100,
+                'Calories' => 770,
+                'total_ratings' => 4.5,
+                'product_id' => 30,
+                'category_id' => 3,
+            ],
+            [
+                'name' => 'بيتزا سوبر ستار - حجم وسط',
+                'price' => 1300,
+                'Calories' => 820,
+                'total_ratings' => 4.7,
+                'product_id' => 31,
+                'category_id' => 3,
+            ],
+            [
+                'name' => 'بيتزا دجاج - حجم وسط',
+                'price' => 1200,
+                'Calories' => 780,
+                'total_ratings' => 4.6,
+                'product_id' => 32,
+                'category_id' => 3,
+            ],
+            [
+                'name' => 'بيتزا بيروني - حجم وسط',
+                'price' => 1300,
+                'Calories' => 800,
+                'total_ratings' => 4.7,
+                'product_id' => 33,
+                'category_id' => 3,
+            ],
+            [
+                'name' => 'بيتزا هوت دوغ - حجم وسط',
+                'price' => 1200,
+                'Calories' => 790,
+                'total_ratings' => 4.6,
+                'product_id' => 34,
+                'category_id' => 3,
+            ],
+            [
+                'name' => 'بيتزا لحمة - حجم وسط',
+                'price' => 1150,
+                'Calories' => 780,
+                'total_ratings' => 4.5,
+                'product_id' => 35,
+                'category_id' => 3,
+            ],
+            [
+                'name' => 'بيتزا محشية - حجم وسط',
+                'price' => 1400,
+                'Calories' => 850,
+                'total_ratings' => 4.8,
+                'product_id' => 36,
+                'category_id' => 3,
+            ],
+            [
+                'name' => 'شوربة درة - وعاء صغير',
+                'price' => 350,
+                'Calories' => 250,
+                'total_ratings' => 4.3,
+                'product_id' => 37,
+                'category_id' => 4,
+            ],
+            [
+                'name' => 'شوربة بصل - وعاء صغير',
+                'price' => 350,
+                'Calories' => 250,
+                'total_ratings' => 4.3,
+                'product_id' => 38,
+                'category_id' => 4,
+            ],
+            [
+                'name' => 'شوربة كريم دجاج - وعاء صغير',
+                'price' => 400,
+                'Calories' => 300,
+                'total_ratings' => 4.4,
+                'product_id' => 39,
+                'category_id' => 4,
+            ],
+            [
+                'name' => 'سلطة سيزر - حجم كبير',
+                'price' => 650,
+                'Calories' => 200,
+                'total_ratings' => 4.8,
+                'product_id' => 40,
+                'category_id' => 5,
+            ],
+            [
+                'name' => 'سلطة سويسرية - حجم كبير',
+                'price' => 700,
+                'Calories' => 220,
+                'total_ratings' => 4.7,
+                'product_id' => 41,
+                'category_id' => 5,
+            ],
+            [
+                'name' => 'سلطة يونانية - حجم كبير',
+                'price' => 650,
+                'Calories' => 210,
+                'total_ratings' => 4.6,
+                'product_id' => 42,
+                'category_id' => 5,
+            ],
+            [
+                'name' => 'سلطة ذرة - حجم كبير',
+                'price' => 500,
+                'Calories' => 180,
+                'total_ratings' => 4.5,
+                'product_id' => 43,
+                'category_id' => 5,
+            ],
+            [
+                'name' => 'سلطة معكرونة - حجم كبير',
+                'price' => 550,
+                'Calories' => 230,
+                'total_ratings' => 4.4,
+                'product_id' => 44,
+                'category_id' => 5,
+            ],
+            [
+                'name' => 'معكرونة بالبشمل - حجم كبير',
+                'price' => 800,
+                'Calories' => 500,
+                'total_ratings' => 4.7,
+                'product_id' => 45,
+                'category_id' => 5,
+            ],
+        ]);
+    
+    }
+
+}
